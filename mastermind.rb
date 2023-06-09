@@ -1,9 +1,9 @@
 #  frozen_string_literal: false
 
-require 'ComputerCodeMaker'
-require 'ComputerCodeCracker'
-require 'PlayerCodeMaker'
-require 'PlayerCodeCracker'
+require 'computer_code_maker'
+require 'computer_code_cracker'
+require 'player_code_maker'
+require 'player_code_cracker'
 
 
 def input_valid?(input)
