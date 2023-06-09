@@ -1,4 +1,4 @@
-require 'templates'
+require_relative 'templates'
 
 # Class out lines the funtionality needed for computer to crack the code
 class ComputerCodeCracker < CodeCracker

@@ -1,4 +1,4 @@
-require 'templates'
+require_relative 'templates'
 
 # Lays out the functionality of a player with the code cracker role
 class PlayerCodeCracker < CodeCracker

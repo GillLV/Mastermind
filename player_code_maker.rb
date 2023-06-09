@@ -1,4 +1,4 @@
-require templates
+require_relative 'templates'
 
 # class outlining how player plays the code maker role
 class PlayerCodeMaker < CodeMaker
@@ -41,7 +41,7 @@ class PlayerCodeMaker < CodeMaker
       feedback = gets.chomp.upcase
       break if valid_feedback?(feedback)
     end
-       
+
     feedback
 
   end

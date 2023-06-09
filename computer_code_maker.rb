@@ -1,4 +1,4 @@
-require 'templates'
+require_relative 'templates'
 
 # class outlining how computer plays the code maker role
 class ComputerCodeMaker < CodeMaker
